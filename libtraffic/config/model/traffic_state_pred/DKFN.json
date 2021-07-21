@@ -1,0 +1,23 @@
+{
+    "K_hop_numbers": 3,
+    "Clamp_A": false,
+
+    "input_window": 10,
+    "output_window": 1,
+    "weight_col": "cost",
+    "calculate_weight": true,
+    "adj_epsilon": 0.1,
+    "add_time_in_day": false,
+    "add_day_in_week": false,
+    "pad_with_last_sample": false,
+    "scaler": "standard",
+
+    "train_rate": 0.7,
+    "eval_rate": 0.1,
+    "train_loss": "mse",
+    "loss_func": "l1",
+    "learning_rate": 1e-4,
+    "learner": "RMSProp",
+    "max_epoch": 100,
+    "use_early_stop": false
+}
