@@ -1,0 +1,24 @@
+{
+  "L": 3,
+  "d": 64,
+  "n_h": 8,
+  "B": 3,
+  "l_d": 2,
+  "r_d": 0.1,
+  "load_external": true,
+  "add_time_in_day": true,
+  "add_day_in_week": true,
+  "input_window": 6,
+  "output_window": 3,
+
+  "max_epoch": 50,
+  "learner": "adam",
+  "learning_rate": 0.0001,
+  "lr_decay": true,
+  "lr_epsilon": 1e-9,
+  "clip_grad_norm": false,
+  "use_early_stop": true,
+  "patience": 50,
+  "batch_size": 2,
+  "scaler": "standard"
+}
